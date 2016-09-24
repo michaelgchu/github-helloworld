@@ -1,0 +1,35 @@
+# This is the "gitignore" file for this Git repository
+# Files matching these patterns will not be tracked
+# Reference:  https://git-scm.com/docs/gitignore
+
+# Ignore .bak "backup" files
+*.bak
+
+# Ignore Vim-related files:
+# Ignore Vim backup files = any files ending with tilde (~)
+*~
+# Ignore swap files
+*.swp
+
+# Ignore any executables that may be here for whatever reason
+*.com
+*.dll
+*.exe
+
+# Ignore any MS Office files that may be here, e.g. documentation, status tracking sheets
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xls[mx]
+
+# Ignore archives
+*.tar
+*.tgz
+*.[7g]z
+*.bz2
+*.rar
+*.zip
+
+#EOF
