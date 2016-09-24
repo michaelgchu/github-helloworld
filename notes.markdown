@@ -103,5 +103,8 @@ Do a final check of things, add this notes file + stuff to staging, commit and t
 Oh, I see Vim's .swp file listed.. Let's create a .gitignore file in here that ignores that, plus other things
 2. git status
 3. git commit -a -m "Update notes; add .gitignore"
+	NOTE: this did not add the new  .gitignore  -- I guess we need to explicitly add anything that's not currently being tracked
+3b. git add .
+3c. git commit -m "add .gitignore for real this time"
 4. git push origin master --verbose
 
